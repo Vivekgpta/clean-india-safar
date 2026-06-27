@@ -10,7 +10,7 @@ export default function AboutUs() {
         <div className="about-container">
           <div className="about-image">
             <img
-              src="/assets/aboutUs/aboutUs1.png"
+              src={aboutUs1}
               alt="About us"
             />
           </div>

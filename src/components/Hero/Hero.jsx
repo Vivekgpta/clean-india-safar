@@ -8,7 +8,7 @@ import "swiper/css/effect-fade";
 
 import hero1 from "../../assets/hero/hero1.jpg";
 import hero2 from "../../assets/hero/hero2.jpg";
-import hero3 from "../../assets/hero/hero3.webp";
+import hero3 from "../../assets/hero/hero3.png";
 
 export default function Hero() {
   return (
