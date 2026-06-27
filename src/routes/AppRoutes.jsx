@@ -12,7 +12,6 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/gallery" element={<Gallery />} />
