@@ -1,122 +1,122 @@
 import "./AboutUs.css";
 import Navbar from "../components/Navbar/Navbar";
-import aboutUs1 from "../assets/aboutUs/aboutUs1.png";
+
+import {
+  FaLeaf,
+  FaHeart,
+  FaUsers,
+  FaShieldAlt
+} from "react-icons/fa";
 
 export default function AboutUs() {
   return (
     <>
       <Navbar />
 
-      <section className="about-hero">
+      <section className="about">
 
-        <div className="about-left">
+        <div className="about-heading">
 
-          <span className="about-tag">
-            🌿 WHO WE ARE
+          <span className="about-badge">
+            <FaLeaf />
+            About Us
           </span>
 
-          <h2>
-            Together We Can Build
-            <span> A Cleaner India</span>
-          </h2>
+          <h1>
+            Rooted in Purpose,
+            <br />
+            Growing with People
+          </h1>
+
+          <div className="divider">
+            <span></span>
+            <FaLeaf />
+            <span></span>
+          </div>
 
           <p>
-            Clean India Safar is a community-driven initiative committed to
-            creating cleaner, greener, and healthier surroundings. We inspire
-            citizens to participate in cleanliness drives and sustainable
-            practices that create lasting environmental impact.
+            Clean India Safar is a nationwide movement dedicated to restoring
+            India's natural beauty. We believe that every citizen has the
+            power to create change, and we provide the platform, tools,
+            and community to make that happen.
           </p>
 
-          <p>
-            Every volunteer, every clean-up drive, and every tree planted brings
-            us one step closer to a cleaner and more sustainable future.
-          </p>
-
-          <div className="about-buttons">
-            <button>Join Our Mission</button>
-          </div>
-
         </div>
 
-        <div className="about-right">
+        <div className="cards">
 
-          <img
-            src={aboutUs1}
-            alt="Clean India"
-          />
+          <div className="card">
 
-        </div>
+            <div className="icon">
+              <FaLeaf />
+            </div>
 
-      </section>
-
-      {/* IMPACT */}
-
-      <section className="impact">
-
-        <h2>Our Impact</h2>
-
-        <div className="impact-grid">
-
-          <div className="impact-card">
-            <h3>500+</h3>
-            <p>Volunteers</p>
-          </div>
-
-          <div className="impact-card">
-            <h3>150+</h3>
-            <p>Cleanliness Drives</p>
-          </div>
-
-          <div className="impact-card">
-            <h3>50+</h3>
-            <p>Cities Connected</p>
-          </div>
-
-          <div className="impact-card">
-            <h3>10K+</h3>
-            <p>Kg Waste Collected</p>
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* VALUES */}
-
-      <section className="values">
-
-        <h2>Our Core Values</h2>
-
-        <div className="values-grid">
-
-          <div className="value-card">
-            🌱
             <h3>Sustainability</h3>
-            <p>Encouraging eco-friendly practices for future generations.</p>
+
+            <p>
+              Building lasting environmental
+              solutions for future generations.
+            </p>
+
           </div>
 
-          <div className="value-card">
-            🤝
+          <div className="card">
+
+            <div className="icon">
+              <FaHeart />
+            </div>
+
+            <h3>Compassion</h3>
+
+            <p>
+              Serving communities with
+              empathy and genuine care.
+            </p>
+
+          </div>
+
+          <div className="card">
+
+            <div className="icon">
+              <FaUsers />
+            </div>
+
             <h3>Community</h3>
-            <p>Working together to build cleaner and healthier cities.</p>
+
+            <p>
+              Uniting people from every walk
+              of life for a common cause.
+            </p>
+
           </div>
 
-          <div className="value-card">
-            ♻️
-            <h3>Recycling</h3>
-            <p>Promoting responsible waste management and recycling.</p>
-          </div>
+          <div className="card">
 
-          <div className="value-card">
-            🌍
-            <h3>Green Future</h3>
-            <p>Creating sustainable communities through collective action.</p>
+            <div className="icon">
+              <FaShieldAlt />
+            </div>
+
+            <h3>Integrity</h3>
+
+            <p>
+              Operating with transparency
+              and accountability.
+            </p>
+
           </div>
 
         </div>
 
-      </section>
+        <div className="about-btn">
 
+          <button>
+            <FaLeaf />
+            Join Our Mission
+          </button>
+
+        </div>
+
+      </section>
     </>
   );
 }
