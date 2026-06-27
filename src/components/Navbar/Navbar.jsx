@@ -25,8 +25,8 @@ export default function Navbar() {
           Home
         </NavLink>
 
-        <NavLink to="/about" onClick={closeMenu}>
-          About
+        <NavLink to="/about-us" onClick={closeMenu}>
+          About us
         </NavLink>
 
         <NavLink to="/mission" onClick={closeMenu}>

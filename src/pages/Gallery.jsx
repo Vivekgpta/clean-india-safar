@@ -1,6 +1,7 @@
 // import MainLayout from "../layouts/MainLayout";
 // import MainLayout from "../../layouts/MainLayout";
 import "./Gallery.css";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function Gallery() {
   const gallery = [
@@ -26,6 +27,7 @@ export default function Gallery() {
   return (
     // <MainLayout>
     <section className="gallery-page">
+      <Navbar />
       <div className="gallery-hero">
         <span>OUR GALLERY</span>
 

@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "../pages/Home";
-import Services from "../pages/Services";
-import Work from "../pages/Work";
 import About from "../pages/About";
+import AboutUs from "../pages/AboutUs";
+import Mission from "../pages/Mission";
+import Gallery from "../pages/Gallery";
 import Contact from "../pages/Contact";
 
 export default function AppRoutes() {
@@ -11,9 +12,10 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/mission" element={<Mission />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
