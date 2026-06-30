@@ -138,11 +138,12 @@ export default function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <a href="#donation" className="primary-btn">
+
+          <a href="#mission" className="primary-btn">
             Donate Now
           </a>
 
-          <a href="#volunteerForm" className="secondary-btn">
+          <a href="#volunteer" className="secondary-btn">
             Become a Volunteer
           </a>
         </div>
