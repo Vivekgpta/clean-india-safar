@@ -1,5 +1,6 @@
-.swiper{
-    padding:20px 5px 50px;
+.swiper-btn{
+    padding:20px 50px 50px 20px;
+    
 }
 
 .swiper-slide{
@@ -12,7 +13,7 @@
 
 .testimonial{
     padding:100px 8%;
-    background:#f3ece1;
+    background:#F8F1E7;
 }
 
 .testimonial-header{

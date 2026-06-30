@@ -1,15 +1,16 @@
 import "./Mission.css";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 
-import aboutUs1 from "../assets/aboutUs/aboutUs1.png";
-import aboutUs2 from "../assets/aboutUs/aboutUs2.png";
-
+import aboutUs1 from "../../assets/gallery/img2.jpg";
+// import aboutUs2 from "../../assets/gallery/img1.jpg";
+// import aboutUs3 from "../../assets/gallery/img3.jpg";
+// import aboutUs4 from "../../assets/gallery/img9.jpg";
 export default function Mission() {
   const images = [
-    aboutUs2,
+    // aboutUs3,
     aboutUs1,
-    aboutUs2,
-    aboutUs1,
+    // aboutUs2,
+    // aboutUs4,
   ];
 
   return (
@@ -37,7 +38,7 @@ export default function Mission() {
           understanding and appreciation for their chosen career paths.
         </p>
 
-        <button>Explore</button>
+        {/* <button>Explore</button> */}
       </div>
 
       <div className="mission-right">

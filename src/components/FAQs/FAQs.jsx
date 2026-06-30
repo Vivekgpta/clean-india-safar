@@ -38,7 +38,7 @@ export default function FAQs() {
   };
 
   return (
-    <section className="faq">
+    <section className="faq" >
 
       <div className="faq-header">
         <span>FAQs</span>

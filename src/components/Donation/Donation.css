@@ -1,0 +1,380 @@
+/* ===========================
+   DONATION SECTION
+=========================== */
+
+#donation {
+  width: 100%;
+  background: #faf6ee;
+  padding: 100px 8%;
+}
+
+.donation-heading {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 70px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 30px;
+  background: #e6eadb;
+  color: #0f5d2a;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.donation-heading h2 {
+  font-size: 58px;
+  font-family: Georgia, serif;
+  color: #171717;
+  margin-bottom: 20px;
+}
+
+.donation-heading p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.donation-container {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* ===========================
+   LEFT
+=========================== */
+
+.donation-left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* QR CARD */
+
+.qr-card {
+  background: #fffdf9;
+  border: 1px solid #ded5c8;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.qr-box {
+  width: 170px;
+  height: 170px;
+  margin: auto;
+  border: 2px dashed #cfd4c4;
+  border-radius: 14px;
+  background: #f5f5ef;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.qr-box svg {
+  font-size: 62px;
+  color: #5d7d5b;
+}
+
+.qr-box span {
+  font-size: 15px;
+  color: #444;
+}
+
+.qr-card h3 {
+  margin-top: 28px;
+  font-size: 28px;
+  font-family: Georgia, serif;
+  color: #1f1f1f;
+}
+
+.upi-id {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: #f5ede0;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.qr-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* WHY DONATE */
+
+.why-card {
+  background: #edf0e5;
+  border: 1px solid #d5dcc7;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.why-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+  color: #1c1c1c;
+  font-family: Georgia, serif;
+  font-size: 28px;
+}
+
+.why-card h3 svg {
+  color: #0c5d2c;
+}
+
+.why-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-card li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: #555;
+  font-size: 17px;
+}
+
+.why-card li svg {
+  color: #0b5d2a;
+  font-size: 14px;
+}
+
+/* ===========================
+   RIGHT FORM
+=========================== */
+
+.donation-right {
+  background: #fffdf9;
+  border: 1px solid #ded5c8;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
+}
+
+.donation-right form {
+  width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 15px 18px;
+  border: 1px solid #d8cdbf;
+  border-radius: 12px;
+  background: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-group textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #8a8a8a;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #0b5d2a;
+  box-shadow: 0 0 0 3px rgba(11, 93, 42, 0.08);
+}
+
+/* ===========================
+   AMOUNT BUTTONS
+=========================== */
+
+.amount-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.amount-btn {
+  border: none;
+  background: #efe6d8;
+  color: #5a4632;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.amount-btn:hover {
+  background: #ded2c2;
+}
+
+.amount-btn.active {
+  background: #0b5d2a;
+  color: #fff;
+}
+
+/* ===========================
+   DONATE BUTTON
+=========================== */
+
+.donate-btn {
+  width: 100%;
+  height: 64px;
+  border: none;
+  border-radius: 14px;
+  background: #005b1f;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  transition: all 0.3s ease;
+}
+
+.donate-btn svg {
+  font-size: 20px;
+}
+
+.donate-btn:hover {
+  background: #08752d;
+  transform: translateY(-2px);
+}
+
+.donate-btn:active {
+  transform: scale(0.98);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 992px) {
+  .donation-container {
+    grid-template-columns: 1fr;
+  }
+
+  .donation-heading h2 {
+    font-size: 46px;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  .amount-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #donation {
+    padding: 70px 20px;
+  }
+
+  .donation-heading {
+    margin-bottom: 45px;
+  }
+
+  .donation-heading h2 {
+    font-size: 38px;
+  }
+
+  .donation-heading p {
+    font-size: 16px;
+  }
+
+  .qr-card,
+  .why-card,
+  .donation-right {
+    padding: 22px;
+  }
+
+  .qr-box {
+    width: 150px;
+    height: 150px;
+  }
+
+  .qr-box svg {
+    font-size: 55px;
+  }
+
+  .amount-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .donate-btn {
+    height: 58px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .amount-buttons {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .donation-heading h2 {
+    font-size: 32px;
+  }
+
+  .qr-card h3,
+  .why-card h3 {
+    font-size: 22px;
+  }
+
+  .upi-id {
+    font-size: 14px;
+    word-break: break-word;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 15px;
+    padding: 14px 16px;
+  }
+}

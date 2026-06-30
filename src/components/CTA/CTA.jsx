@@ -28,13 +28,13 @@ export default function CTA() {
 
         <div className="cta-buttons">
 
-          <Link
-            to="/contact"
+          <a
+            href="#volunteerform"
             className="cta-primary"
           >
            Start Volunteering
             <FaArrowRight />
-          </Link>
+          </a>
 
           <a
             href="https://wa.me/919142457610"

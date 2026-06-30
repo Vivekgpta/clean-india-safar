@@ -53,6 +53,7 @@ export default function Testimonials() {
       </div>
 
       <Swiper
+      className="swiper-btn"
         modules={[Autoplay]}
         spaceBetween={30}
         loop={true}
