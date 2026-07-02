@@ -1,6 +1,6 @@
 import React from "react";
 import "./ReelsGallery.css";
-import img3 from "../../assets/gallery/img3.jpg";
+import img3 from "../assets/gallery/img3.jpg";
 import img4 from "../../assets/gallery/img4.jpg";
 import img6 from "../../assets/gallery/img6.jpg";
 import img9 from "../../assets/gallery/img9.jpg";
