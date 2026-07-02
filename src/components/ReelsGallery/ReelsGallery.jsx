@@ -1,21 +1,21 @@
 import React from "react";
 import "./ReelsGallery.css";
-import img3 from "../assets/gallery/img3.jpg";
-import img4 from "../../assets/gallery/img4.jpg";
-import img6 from "../../assets/gallery/img6.jpg";
-import img9 from "../../assets/gallery/img9.jpg";
+// import img3 from "../assets/gallery/img3.jpg";
+// import img4 from "../../assets/gallery/img4.jpg";
+// import img6 from "../../assets/gallery/img6.jpg";
+// import img9 from "../../assets/gallery/img9.jpg";
 
-import imgi18 from "../../assets/gallery/imgi_18.jpg";
-import imgi19 from "../../assets/gallery/imgi_19.jpg";
-import imgi20 from "../../assets/gallery/imgi_20.jpg";
-import imgi21 from "../../assets/gallery/imgi_21.jpg";
-import imgi22 from "../../assets/gallery/imgi_22.jpg";
-import imgi23 from "../../assets/gallery/imgi_23.jpg";
-import imgi24 from "../../assets/gallery/imgi_24.jpg";
-import imgi25 from "../../assets/gallery/imgi_25.jpg";
-import imgi26 from "../../assets/gallery/imgi_26.jpg";
-import imgi27 from "../../assets/gallery/imgi_27.jpg";
-import imgi28 from "../../assets/gallery/imgi_28.jpg";
+// import imgi18 from "../../assets/gallery/imgi_18.jpg";
+// import imgi19 from "../../assets/gallery/imgi_19.jpg";
+// import imgi20 from "../../assets/gallery/imgi_20.jpg";
+// import imgi21 from "../../assets/gallery/imgi_21.jpg";
+// import imgi22 from "../../assets/gallery/imgi_22.jpg";
+// import imgi23 from "../../assets/gallery/imgi_23.jpg";
+// import imgi24 from "../../assets/gallery/imgi_24.jpg";
+// import imgi25 from "../../assets/gallery/imgi_25.jpg";
+// import imgi26 from "../../assets/gallery/imgi_26.jpg";
+// import imgi27 from "../../assets/gallery/imgi_27.jpg";
+// import imgi28 from "../../assets/gallery/imgi_28.jpg";
 
 // const reels = [
 //   {
@@ -139,110 +139,111 @@ import imgi28 from "../../assets/gallery/imgi_28.jpg";
 //     link: "https://www.instagram.com/vkkushwaha663/",
 //   },
 // ];
+// 
 const reels = [
   {
     id: 1,
     title: "Reel One",
     desc: "Nature vlog",
-    poster: img4,
+    poster: "/gallery/img4.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 2,
     title: "Reel Two",
     desc: "Travel moment",
-    poster: img6,
+    poster: "/gallery/img6.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 3,
     title: "Reel Three",
     desc: "Product highlight",
-    poster: img3,
+    poster: "/gallery/img3.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 4,
     title: "Reel Four",
     desc: "Event clip",
-    poster: img9,
+    poster: "/gallery/img9.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 5,
     title: "Reel 18",
     desc: "Clean India Safar",
-    poster: imgi18,
+    poster: "/gallery/img18.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 6,
     title: "Reel 19",
     desc: "Clean India Safar",
-    poster: imgi19,
+    poster: "/gallery/img19.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 7,
     title: "Reel 20",
     desc: "Clean India Safar",
-    poster: imgi20,
+    poster: "/gallery/img20.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 8,
     title: "Reel 21",
     desc: "Clean India Safar",
-    poster: imgi21,
+    poster: "/gallery/img21.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 9,
     title: "Reel 22",
     desc: "Clean India Safar",
-    poster: imgi22,
+    poster: "/gallery/img22.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 10,
     title: "Reel 23",
     desc: "Clean India Safar",
-    poster: imgi23,
+    poster: "/gallery/img23.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 11,
     title: "Reel 24",
     desc: "Clean India Safar",
-    poster: imgi24,
+    poster: "/gallery/img24.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 12,
     title: "Reel 25",
     desc: "Clean India Safar",
-    poster: imgi25,
+    poster: "/gallery/img25.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 13,
     title: "Reel 26",
     desc: "Clean India Safar",
-    poster: imgi26,
+    poster: "/gallery/img26.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 14,
     title: "Reel 27",
     desc: "Clean India Safar",
-    poster: imgi27,
+    poster: "/gallery/img27.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
   {
     id: 15,
     title: "Reel 28",
     desc: "Clean India Safar",
-    poster: imgi28,
+    poster: "/gallery/img28.jpg",
     link: "https://www.instagram.com/vkkushwaha663/",
   },
 ];
