@@ -17,6 +17,8 @@ import {
 import hero1 from "../../assets/hero/hero1.jpg";
 import hero2 from "../../assets/hero/hero2.jpg";
 import hero3 from "../../assets/hero/hero3.png";
+import sliderImg from "../../assets/hero/sliderImg.jpg";
+
 
 export default function Hero() {
   return (
@@ -43,7 +45,15 @@ export default function Hero() {
         <SwiperSlide>
           <img src={hero3} alt="Volunteer Campaign" />
         </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={sliderImg} alt="KD cleaning" />
+        </SwiperSlide>
+
+        
       </Swiper>
+
+      
 
       <div className="hero-overlay"></div>
 
