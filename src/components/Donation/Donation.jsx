@@ -1,6 +1,6 @@
 import "./Donation.css";
 import React, { useState } from "react";
-
+import qrImage from "../../assets/qrcode.jpeg";
 import {
   FaHeart,
   FaWhatsapp,
@@ -49,7 +49,7 @@ const Donation = () => {
 📝 Message :
 ${formData.message}`;
 
-    const phone = "91XXXXXXXXXX"; // Replace with your WhatsApp Number
+    const phone = "9142457610"; // Replace with your WhatsApp Number
 
     window.open(
       `https://wa.me/${phone}?text=${encodeURIComponent(message)}`,
@@ -88,29 +88,22 @@ ${formData.message}`;
 
           {/* QR CARD */}
 
-          <div className="qr-card">
+        <div className="qr-card">
+  <div className="qr-box">
+    <img src={qrImage} alt="UPI QR Code" className="qr-image" />
+    <span>Scan to Donate</span>
+  </div>
 
-            <div className="qr-box">
+  <h3>UPI Payment</h3>
 
-              {/* Replace with actual QR image */}
+  <div className="upi-id">
+    cleanindiasafar@upi
+  </div>
 
-              <FaQrcode />
-
-              <span>Scan to Donate</span>
-
-            </div>
-
-            <h3>UPI Payment</h3>
-
-            <div className="upi-id">
-              cleanindiasafar@upi
-            </div>
-
-            <p>
-              Use any UPI app to scan and donate instantly
-            </p>
-
-          </div>
+  <p>
+    Use any UPI app to scan and donate instantly
+  </p>
+</div>
 
           {/* WHY DONATE */}
 

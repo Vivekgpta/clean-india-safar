@@ -1,3 +1,43 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.logo-text h3{
+    margin: 0;
+    font-size: 20px;   /* 26px -> 20px */
+    font-weight: 800;
+    color: #222;
+}
+
+.logo-text .green{
+    color: #2E7D32;
+}
+
+.logo-text p{
+    margin: 3px 0 0;
+    font-size: 8px;    /* 10px -> 8px */
+    color: #666;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+
+
 .footer {
   padding: 18px 5% 12px;
   background: #f3ece1;

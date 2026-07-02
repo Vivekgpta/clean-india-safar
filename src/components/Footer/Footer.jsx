@@ -12,7 +12,7 @@ import {
   FaWhatsapp,
   FaArrowUp,
 } from "react-icons/fa";
-
+import logo from "../../assets/logo.png";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -21,7 +21,18 @@ export default function Footer() {
 
         <div className="footer-brand">
 
-          <h2>🌿 Clean India Safar</h2>
+           <div className="logo">
+                  <img src={logo} alt="Clean India Safar" className="logo-img" />
+          
+                  <div className="logo-text">
+                    <h3>
+                      <span className="green">VK</span> CLEAN{" "}
+                      <span className="green">BHOPAL</span>
+                    </h3>
+          
+                    <p>TOGETHER WE CLEAN, TOGETHER WE CHANGE</p>
+                  </div>
+                </div>
 
           <p>
             Crafting modern digital experiences,
@@ -35,11 +46,15 @@ export default function Footer() {
 
           <h4>Navigation</h4>
 
-          <Link to="/">Home</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/work">Work</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <a href="#home">Home</a>
+
+        {/* <a href="#about">About Us</a> */}
+        <a href="#mission">Mission</a>
+        <a href="#gallery">Gallery</a>
+        {/* <a href="#volunteer">Volunteer</a> */}
+
+        <a href="#faqs">FAQs</a>
+        <a href="#contact">Contact</a>
 
         </div>
 
@@ -51,7 +66,7 @@ export default function Footer() {
 
   <div className="contact-item">
     <FaMapMarkerAlt className="contact-icon" />
-    <p>42 Green Avenue, New Delhi, 110001</p>
+    <p>42 Green Avenue, Bhopal, M.P.</p>
   </div>
 
   <div className="contact-item">
@@ -72,7 +87,7 @@ export default function Footer() {
           <h4>Connect</h4>
 
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/vkkushwaha663/"
             target="_blank"
             rel="noreferrer"
           >
@@ -81,7 +96,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/vk-kushwaha-1278a3361/"
             target="_blank"
             rel="noreferrer"
           >
@@ -90,7 +105,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://wa.me/919142457610"
+            href="https://www.whatsapp.com/channel/0029Vb8P257HrDZXtvknPZ0n?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnq0XT1q0FpbGz9-tC4EFMK0CPRJpCt-nUzaiiAo9888agDONUApnsHIl2DrY_aem_cG2YohZttQAd2VdJnKKGTA"
             target="_blank"
             rel="noreferrer"
           >
@@ -107,7 +122,7 @@ export default function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © {new Date().getFullYear()} Zenith Studio.
+          © {new Date().getFullYear()} VK CLEAN BHOPAL.
           All Rights Reserved.
         </p>
 

@@ -38,7 +38,7 @@ const Contact = () => {
 📝 Message :
 ${formData.message}`;
 
-    const phone = "91XXXXXXXXXX"; // Replace with your WhatsApp Number
+    const phone = "919142457610"; // Replace with your WhatsApp Number
 
     window.open(
       `https://wa.me/${phone}?text=${encodeURIComponent(message)}`,
