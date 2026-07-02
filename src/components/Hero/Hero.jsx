@@ -43,7 +43,7 @@ export default function Hero() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={hero3} alt="Volunteer Campaign" />
+          <img src={sliderImg} alt="Volunteer Campaign" />
         </SwiperSlide>
         
 
